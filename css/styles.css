@@ -1,0 +1,57 @@
+.initially-showing, .bat-showing, .alien-showing, .stormtrooper-showing, .halo-showing {
+  display: none;
+}
+
+img {
+  width: 350px;
+}
+
+/* Walrus */
+  .clickable {
+    cursor: pointer;
+    color: #0088cc;
+  }
+
+  .clickable:hover {
+    text-decoration: underline;
+  }
+
+/* Batman */
+  .clickable2 {
+    cursor: pointer;
+    color: #0088cc;
+  }
+
+  .clickable2:hover {
+    text-decoration: underline;
+  }
+
+/* Alien */
+  .clickable3 {
+    cursor: pointer;
+    color: #0088cc;
+  }
+
+  .clickable3:hover {
+    text-decoration: underline;
+  }
+
+/* Stormtrooper */
+  .clickable4 {
+    cursor: pointer;
+    color: #0088cc;
+  }
+
+  .clickable4:hover {
+    text-decoration: underline;
+  }
+
+/* Halo */
+  .clickable5 {
+    cursor: pointer;
+    color: #0088cc;
+  }
+
+  .clickable5:hover {
+    text-decoration: underline;
+  }
