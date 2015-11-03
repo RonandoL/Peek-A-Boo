@@ -1,14 +1,14 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $(".initially-hidden").toggle();
-    $(".initially-showing").toggle();
+    $(".initially-hidden").fadeToggle(300);
+    $(".initially-showing").fadeToggle(700);
   });
 });
 
 $(document).ready(function() {
   $(".clickable2").click(function() {
-    $(".bat-hidden").toggle();
-    $(".bat-showing").toggle();
+    $(".bat-hidden").slideToggle();
+    $(".bat-showing").slideToggle();
   });
 });
 
