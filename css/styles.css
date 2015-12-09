@@ -1,17 +1,19 @@
-.initially-showing, .bat-showing, .alien-showing, .stormtrooper-showing, .halo-showing {
+img {
+  max-width: 450px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.image-showing {
   display: none;
 }
 
-img {
-  width: 350px;
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
 }
 
-/* Walrus */
-  .clickable, .clickable2, .clickable3, .clickable4, .clickable5 {
-    cursor: pointer;
-    color: #0088cc;
-  }
-
-  .clickable:hover,  .clickable2:hover, .clickable3:hover, .clickable4:hover, .clickable5:hover {
-    text-decoration: underline;
-  }
+.clickable:hover {
+  text-decoration: underline;
+}

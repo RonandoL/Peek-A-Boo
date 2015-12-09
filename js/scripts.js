@@ -1,34 +1,27 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $(".initially-hidden").fadeToggle(300);
-    $(".initially-showing").fadeToggle(700);
-  });
-});
+    $("#walrus .clickable").click(function() {
+        $("#walrus .image-showing").toggle();
+        $("#walrus .image-hidden").toggle();
+    });
 
-$(document).ready(function() {
-  $(".clickable2").click(function() {
-    $(".bat-hidden").slideToggle();
-    $(".bat-showing").slideToggle();
-  });
-});
+    $("#alien .clickable").click(function() {
+        $("#alien .image-showing").toggle();
+        $("#alien .image-hidden").toggle();
+    });
 
-$(document).ready(function() {
-  $(".clickable3").click(function() {
-    $(".alien-hidden").toggle();
-    $(".alien-showing").toggle();
-  });
-});
+    $("#batman .clickable").click(function() {
+        $("#batman .image-hidden").toggle();
+        $("#batman .image-showing").toggle();
+    });
 
-$(document).ready(function() {
-  $(".clickable4").click(function() {
-    $(".stormtrooper-hidden").toggle();
-    $(".stormtrooper-showing").toggle();
-  });
-});
+    $("#halo .clickable").click(function() {
+        $("#halo .image-hidden").toggle();
+        $("#halo .image-showing").toggle();
+    });
 
-$(document).ready(function() {
-  $(".clickable5").click(function() {
-    $(".halo-hidden").toggle();
-    $(".halo-showing").toggle();
-  });
+    $("#stormtrooper .clickable").click(function() {
+        $("#stormtrooper .image-hidden").toggle();
+        $("#stormtrooper .image-showing").toggle();
+    });
+
 });
