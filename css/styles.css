@@ -4,6 +4,10 @@ img {
   border-radius: 5px;
 }
 
+.boxy {
+  margin: 15px;
+}
+
 .image-showing {
   display: none;
 }
